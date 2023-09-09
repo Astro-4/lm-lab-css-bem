@@ -1,7 +1,30 @@
 /* You can delete / re-write this img class  */
-
-img {
-    max-width: 200px;
+.card {
+  border: 2px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  max-width: 200px;
+  text-align: center;
+}
+.img {
+  max-width: 200px;
 }
 
-/* Happy coding! */
+/* Light-colored card */
+.card--light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Dark-colored card */
+.card--dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Card title */
+.card__title {
+  font-size: 24px;
+  margin: 0;
+}
